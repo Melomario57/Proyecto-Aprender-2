@@ -1,0 +1,22 @@
+.oakley {
+  background-color: #f2f2f2;
+  padding: 160px 0 100px 0;
+  margin: 0 auto;
+}
+.oakley__two-columns {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 80px;
+}
+.oakley__title {
+  line-height: 1.2;
+  font-size: 24px;
+  color: #2f80ed;
+  margin: 0;
+}
+.oakley__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  width: 108%;
+  margin: 0;
+}
