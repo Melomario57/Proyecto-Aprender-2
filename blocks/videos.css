@@ -1,5 +1,7 @@
 .videos {
   padding-top: 100px;
+  background-image: linear-gradient(to bottom), #f2f2f2;
+  height: 50vh;
 }
 
 .videos__title {
@@ -36,16 +38,4 @@
   width: 515px;
   height: 316px;
   border: 0;
-}
-
-.videos__rectangle {
-  width: 1280px;
-  height: 20vh;
-  background-color: #f2f2f2;
-  position: absolute;
-  z-index: -1;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 200px;
 }
