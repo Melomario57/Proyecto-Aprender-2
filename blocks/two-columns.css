@@ -1,0 +1,32 @@
+.two-columns {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.two-columns__column-title {
+  width: 26%;
+  padding-top: 0.3%;
+}
+.two-columns__column-paragraph {
+  width: 70%;
+}
+.two-columns__title {
+  line-height: 1.2;
+  font-size: 20px;
+  color: #2f80ed;
+  margin: 0 0 0 20%;
+}
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 20px;
+  margin: 0;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
+.two-columns__first-paragraph {
+  padding-bottom: 5%;
+}

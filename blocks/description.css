@@ -1,37 +1,3 @@
-.description__two-columns {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 100px;
-
-  width: 80%;
-  margin: 0 auto;
-}
-
-.description__two-columns-brief {
-  width: 175px;
-  line-height: 1.2;
-  font-size: 18px;
-  color: #2f80ed;
-  margin-top: 0.5%;
-}
-
-.description__main-text {
-  min-width: 784px;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.description__paragraph {
-  line-height: 34px;
-  font-size: 20px;
-  font-weight: 400;
-  margin: 0;
-}
-
-.description__span-accent {
-  line-height: 34px;
-  font-size: 20px;
-  font-weight: bold;
+.description {
+  padding-top: 8%;
 }

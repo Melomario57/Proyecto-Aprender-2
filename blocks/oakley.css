@@ -2,26 +2,3 @@
   background-color: #f2f2f2;
   padding: 160px 0 100px 0;
 }
-.oakley__two-columns {
-  margin: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.oakley__column-title {
-  width: 26%;
-}
-.oakley__column-paragraph {
-  width: 70%;
-}
-.oakley__title {
-  line-height: 1.2;
-  font-size: 20px;
-  color: #2f80ed;
-  margin: 0 0 0 20%;
-}
-.oakley__paragraph {
-  line-height: 34px;
-  font-size: 20px;
-  margin: 0;
-}
