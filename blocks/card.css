@@ -1,0 +1,27 @@
+.card {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__image {
+  width: 160px;
+  border-radius: 50%;
+}
+
+.card__title {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 43px;
+  text-align: center;
+}
+.card__description {
+  line-height: 23px;
+  font-size: 18px;
+  margin: 0;
+  padding-top: 16px;
+  text-align: center;
+}

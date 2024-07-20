@@ -1,0 +1,23 @@
+.techniques {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.techniques__title {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+.techniques__subtitle {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}

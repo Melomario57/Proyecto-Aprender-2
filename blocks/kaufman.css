@@ -1,0 +1,77 @@
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 0;
+  margin: auto;
+  color: #fff;
+  background-color: #1f1f1f;
+  overflow: hidden;
+  position: relative;
+}
+.kaufman__title {
+  width: 60%;
+  padding-top: 90px;
+  margin: 0px auto 20px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  z-index: 1;
+}
+.kaufman__subtitle {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0px auto;
+  z-index: 1;
+}
+
+.kaufman__table {
+  width: 86%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 80px;
+  margin: 80px auto 0px;
+  padding-bottom: 90px;
+  z-index: 1;
+  padding-left: 0;
+}
+
+.kaufman__table-cell {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.kaufman__table-heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.kaufman__table-text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.kaufman__triangle {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  z-index: 0;
+  right: -110px;
+  bottom: -230px;
+  transform: rotate(30deg);
+}

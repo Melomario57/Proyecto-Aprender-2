@@ -1,0 +1,31 @@
+.resources {
+  padding: 100px 0 217px;
+}
+
+.resources__title {
+  width: 60%;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.resources__subtitle {
+  width: 60%;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.resources__logo-zone {
+  width: 110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}

@@ -1,0 +1,41 @@
+.videos {
+  padding-top: 100px;
+}
+
+.videos__title {
+  width: 60%;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: bold;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.videos__subtitle {
+  width: 60%;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin: 0 auto;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.videos__content {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  z-index: 3;
+  bottom: -70px;
+}
+
+.videos__iframe {
+  width: 515px;
+  height: 316px;
+  border: 0;
+}
