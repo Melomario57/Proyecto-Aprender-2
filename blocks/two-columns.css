@@ -30,3 +30,41 @@
 .two-columns__first-paragraph {
   padding-bottom: 5%;
 }
+
+@media screen and (max-width: 800px) {
+  .two-columns {
+    display: flex;
+  }
+  .two-columns__column-title {
+    padding-top: 0.5%;
+  }
+  .two-columns__title {
+    font-size: 18px;
+  }
+  .two-columns__paragraph {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .two-columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .two-columns__column-title {
+    width: 90%;
+    padding-bottom: 8%;
+  }
+  .two-columns__column-paragraph {
+    width: 90%;
+  }
+  .two-columns__title {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+  }
+  .two-columns__paragraph {
+    font-size: 18px;
+  }
+}
