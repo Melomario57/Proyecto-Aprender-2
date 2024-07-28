@@ -2,3 +2,9 @@
   background-color: #f2f2f2;
   padding: 160px 0 100px 0;
 }
+
+@media screen and (max-width: 320px) {
+  .oakley {
+    padding-top: 120px;
+  }
+}

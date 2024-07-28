@@ -39,3 +39,49 @@
   height: 316px;
   border: 0;
 }
+
+@media screen and (max-width: 1100px) {
+  .videos__iframe {
+    width: 435px;
+    height: 236px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .videos__iframe {
+    width: 355px;
+    height: 156px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .videos__content {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .videos__iframe {
+    width: 395px;
+    height: 196px;
+  }
+  .videos__title {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .videos__iframe {
+    width: 300px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .videos {
+    padding-top: 20%;
+  }
+  .videos__iframe {
+    width: 280px;
+    height: 140px;
+  }
+  .videos__title {
+    font-size: 45px;
+  }
+}
