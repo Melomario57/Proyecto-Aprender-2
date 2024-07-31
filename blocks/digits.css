@@ -73,6 +73,7 @@
 @media screen and (max-width: 800px) {
   .digits__section-subtitle {
     padding-top: 5%;
+    width: 45%;
   }
   .digits {
     display: flex;
@@ -84,15 +85,22 @@
     justify-content: center;
     column-gap: 20px;
   }
+  .digits__section-title {
+    width: 65%;
+    font-size: 55px;
+  }
 }
 @media screen and (max-width: 530px) {
   .digits__section-subtitle {
     padding-top: 6%;
+    font-size: 20px;
+    width: 45%;
   }
   .digits {
     display: flex;
     flex-direction: column;
     align-content: end;
+    padding: 60px 0;
   }
 
   .digits__table {
@@ -102,11 +110,13 @@
 
 @media screen and (max-width: 320px) {
   .digits__section-title {
-    text-align: center;
-
     font-size: 50px;
   }
+  .digits {
+    padding: 60px 0;
+  }
   .digits__section-subtitle {
-    font-size: 20px;
+    font-size: 18px;
+    width: 50%;
   }
 }

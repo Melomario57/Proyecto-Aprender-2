@@ -128,6 +128,9 @@
   .kaufman__table-text {
     font-size: 15.5px;
   }
+  .kaufman__title {
+    font-size: 45px;
+  }
 }
 @media screen and (max-width: 450px) {
   .kaufman__subtitle {
@@ -150,7 +153,7 @@
     font-size: 18px;
   }
   .kaufman__title {
-    font-size: 35px;
+    font-size: 40px;
   }
   .kaufman__table-cell {
     width: 80%;
@@ -164,7 +167,11 @@
     bottom: 350px;
   }
 }
-
+@media screen and (max-width: 430px) {
+  .kaufman__title {
+    font-size: 35px;
+  }
+}
 @media screen and (max-width: 320px) {
   .kaufman__subtitle {
     padding-top: 6%;
