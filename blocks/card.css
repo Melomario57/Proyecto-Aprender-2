@@ -25,3 +25,24 @@
   padding-top: 16px;
   text-align: center;
 }
+
+@media screen and (max-width: 320px) {
+  .card__image {
+    width: 140px;
+    border-radius: 50%;
+  }
+
+  .card__title {
+    line-height: 1.15;
+    font-size: 20px;
+
+    padding-top: 46px;
+  }
+  .card__description {
+    line-height: 23px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 16px;
+    text-align: center;
+  }
+}

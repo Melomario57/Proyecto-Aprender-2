@@ -5,3 +5,32 @@
   width: 73%;
   padding-top: 60px;
 }
+
+@media screen and (max-width: 1190px) {
+  .cards {
+    gap: 60px 40px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .cards {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

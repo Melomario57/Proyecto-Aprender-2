@@ -21,3 +21,42 @@
   margin: 0;
   padding-top: 20px;
 }
+@media screen and (max-width: 930px) {
+  .techniques {
+    margin-left: 8%;
+  }
+}
+@media screen and (max-width: 810px) {
+  .techniques {
+    margin-left: 6%;
+  }
+}
+@media screen and (max-width: 730px) {
+  .techniques {
+    margin-left: 4%;
+  }
+}
+@media screen and (max-width: 674px) {
+  .techniques {
+    margin-left: 1%;
+  }
+  .techniques__title {
+    font-size: 45px;
+  }
+  .techniques__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .techniques__title {
+    font-size: 40px;
+
+    margin: 0;
+  }
+  .techniques__subtitle {
+    font-size: 18px;
+
+    padding-top: 30px;
+  }
+}
