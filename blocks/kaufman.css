@@ -132,9 +132,15 @@
     font-size: 45px;
   }
 }
+@media screen and (max-width: 534px) {
+  .kaufman__title {
+    font-size: 35px;
+    width: 80%;
+  }
+}
 @media screen and (max-width: 450px) {
   .kaufman__subtitle {
-    padding-top: 4%;
+    padding-top: 1.6%;
   }
   .kaufman {
     display: flex;
@@ -146,7 +152,8 @@
     flex-direction: column;
     align-items: center;
     row-gap: 15px;
-    width: 100%;
+    width: 60%;
+    margin: 30px auto 0px;
   }
 
   .kaufman__table-text {
@@ -161,28 +168,30 @@
   .kaufman__triangle {
     width: 500px;
     height: 500px;
-
-    z-index: 0;
     right: -110px;
-    bottom: 350px;
+    bottom: 1100px;
   }
 }
-@media screen and (max-width: 430px) {
-  .kaufman__title {
-    font-size: 35px;
-  }
-}
+
 @media screen and (max-width: 320px) {
   .kaufman__subtitle {
-    padding-top: 6%;
+    padding-top: 2.5%;
     font-size: 20px;
   }
   .kaufman__triangle {
     width: 500px;
     height: 500px;
-    object-fit: contain;
+
+    position: absolute;
+
+    right: -110px;
+    bottom: 1100px;
   }
   .kaufman__title {
     font-size: 30px;
+  }
+  .kaufman__table {
+    row-gap: 40px;
+    margin: 35px auto 0px;
   }
 }
