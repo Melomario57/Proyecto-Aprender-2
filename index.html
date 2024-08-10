@@ -16,12 +16,27 @@
   <body>
     <div class="page">
       <header class="header">
-        <img
-          src="./images/TripletenLogo.svg"
-          alt="Logotipo de Triple Ten"
-          class="header__logo"
-        />
-
+        <nav class="nav">
+          <img
+            src="./images/TripletenLogo.svg"
+            alt="Logotipo de Triple Ten"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#techniques">Técnicas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#videos">Charlas TED</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#resources">Recursos</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#footer">Contacto</a>
+            </li>
+          </ul>
+        </nav>
         <h1 class="header__title">Aprender a aprender</h1>
         <h2 class="header__subtitle">
           Las técnicas de aprendizaje más eficaces y avanzadas que puedes
@@ -73,7 +88,7 @@
             </div>
           </div>
         </section>
-        <section class="techniques">
+        <section class="techniques" id="techniques">
           <h3 class="techniques__title">Técnicas de aprendizaje</h3>
           <h4 class="techniques__subtitle">
             Cinco estrategias por Barbara Oakley
@@ -146,7 +161,7 @@
             </div>
           </div>
         </section>
-        <section class="videos">
+        <section class="videos" id="videos">
           <h2 class="videos__title">Charlas TED</h2>
           <h3 class="videos__subtitle">
             Para los amantes de la procrastinación
@@ -378,7 +393,7 @@
             class="kaufman__triangle"
           />
         </section>
-        <section class="resources">
+        <section class="resources" id="resources">
           <h2 class="resources__title">Recursos útiles</h2>
           <h3 class="resources__subtitle">
             Más materiales sobre técnicas y trucos de aprendizaje.
@@ -415,7 +430,7 @@
           </div>
         </section>
       </main>
-      <footer class="footer">
+      <footer class="footer" id="footer">
         <div class="footer__columns">
           <div class="footer__column_content_copyright">
             <img
