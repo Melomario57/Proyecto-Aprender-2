@@ -62,6 +62,16 @@
 .khan__book-pic {
   width: 500px;
   height: 600px;
+  animation-name: book;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-timing-function: ease;
+}
+
+@keyframes book {
+  0% {
+    left: 25%;
+  }
 }
 
 .khan__buy-link {
