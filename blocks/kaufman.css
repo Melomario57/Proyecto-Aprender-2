@@ -74,6 +74,27 @@
   right: -110px;
   bottom: -230px;
   transform: rotate(30deg);
+  animation-name: tri;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tri {
+  0% {
+    background-color: black;
+  }
+  20% {
+    background-color: rgb(49, 48, 48);
+  }
+
+  50% {
+    background-color: rgb(22, 21, 21);
+  }
+
+  100% {
+    background-color: rgb(63, 62, 62);
+  }
 }
 
 @media screen and (max-width: 900px) {

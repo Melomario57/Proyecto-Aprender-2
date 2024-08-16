@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 1440px) {
   .nav {
-    width: 89%;
+    width: 93.6%;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -56,6 +56,9 @@
 @media screen and (max-width: 800px) {
   .nav__links {
     display: none;
+  }
+  .nav {
+    height: 10%;
   }
 }
 

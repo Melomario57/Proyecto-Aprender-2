@@ -63,14 +63,29 @@
   width: 500px;
   height: 600px;
   animation-name: book;
-  animation-duration: 4s;
-  animation-delay: 2s;
-  animation-timing-function: ease;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: relative;
 }
-
 @keyframes book {
   0% {
-    left: 25%;
+    left: 0px;
+  }
+  20% {
+    left: 60px;
+  }
+  40% {
+    left: -60px;
+  }
+  60% {
+    left: 60px;
+  }
+  80% {
+    left: -60px;
+  }
+  100% {
+    left: 60px;
   }
 }
 

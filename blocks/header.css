@@ -54,8 +54,29 @@
   position: absolute;
   top: 64px;
   right: 0;
+  animation-name: square;
+  animation-duration: 7.5s;
 
+  animation-iteration-count: infinite;
   transform: rotate(45deg);
+}
+
+@keyframes square {
+  0% {
+    width: 568px;
+  }
+  25% {
+    width: 600px;
+  }
+  50% {
+    width: 568px;
+  }
+  75% {
+    width: 600px;
+  }
+  100% {
+    width: 568px;
+  }
 }
 
 @media screen and (max-width: 800px) {
