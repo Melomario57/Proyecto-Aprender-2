@@ -39,22 +39,36 @@
         </nav>
         <nav class="burgerbutton">
           <input class="burgerbutton__input" type="checkbox" id="menu" />
-          <label class="burgerbutton__label" for="menu"> ☰ </label>
-          <ul class="burgerbutton__list">
-            <li class="burgerbutton__list-item">
-              <a href="#techniques" class="burger__nav-link">Técnicas</a>
-            </li>
-            <li class="burgerbutton__list-item">
-              <a href="#videos" class="burger__nav-link">Charlas TED</a>
-            </li>
-            <li class="burgerbutton__list-item">
-              <a href="#resources" class="burger__nav-link">Recursos</a>
-            </li>
-            <li class="burgerbutton__list-item">
-              <a href="#footer" class="burger__nav-link">Contacto</a>
-            </li>
-          </ul>
+          <label class="burgerbutton__label burger__close" for="menu">
+            ☰
+          </label>
         </nav>
+        <section class="popup">
+          <div class="popup__container">
+            <button class="popup__button-cross" type="button">
+              <img
+                src="./images/Close.png"
+                alt="imagén de una cruz"
+                class="popup__button-cross-image"
+              />
+            </button>
+            <ul class="burgerbutton__list">
+              <li class="burgerbutton__list-item">
+                <a href="#techniques" class="burger__nav-link">Técnicas</a>
+              </li>
+              <li class="burgerbutton__list-item">
+                <a href="#videos" class="burger__nav-link">Charlas TED</a>
+              </li>
+              <li class="burgerbutton__list-item">
+                <a href="#resources" class="burger__nav-link">Recursos</a>
+              </li>
+              <li class="burgerbutton__list-item">
+                <a href="#footer" class="burger__nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
         <h1 class="header__title">Aprender a aprender</h1>
         <h2 class="header__subtitle">
           Las técnicas de aprendizaje más eficaces y avanzadas que puedes
@@ -499,7 +513,7 @@
         </div>
       </footer>
     </div>
-    <!--  Abrir el archivo java hasta cuando agreguemos funcionalidades -->
-    <!-- <script src="./script/java.js"></script> -->
+
+    <script src="./script/index.js"></script>
   </body>
 </html>

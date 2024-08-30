@@ -76,16 +76,14 @@
   .burgerbutton__list {
     position: absolute;
     z-index: 5;
-    right: -180%;
-    top: 40%;
+
     text-decoration: none;
+    display: block;
   }
 }
 
 @media screen and (min-width: 320px) {
   .burgerbutton__list {
-    right: -100%;
-    top: 70%;
     font-size: 12px;
   }
 }
