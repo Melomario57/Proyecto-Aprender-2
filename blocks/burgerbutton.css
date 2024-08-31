@@ -3,6 +3,8 @@
   left: 68%;
   z-index: 5;
   top: 1.8%;
+  background-color: transparent;
+  border: none;
 }
 
 .burgerbutton__list {
@@ -12,9 +14,6 @@
 }
 .burgerbutton__input:checked ~ .burgerbutton__list {
   display: block;
-}
-.burgerbutton__input:checked ~ .burgerbutton__label {
-  background: lightgrey;
 }
 
 .burgerbutton__input {
@@ -46,7 +45,7 @@
 
 .burgerbutton__list-item {
   display: block;
-  background: lightgrey;
+  background: #5c8ceaad;
   margin: 0;
   padding: 10px;
   list-style: none;

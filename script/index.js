@@ -2,14 +2,30 @@ const openBurgerButton = document.querySelector(".burgerbutton__label");
 const popupBurger = document.querySelector(".popup");
 const closeBurgerButton = document.querySelector(".popup__button-cross");
 
-openBurgerButton.addEventListener("click", () => {
+function openPopup() {
   popupBurger.classList.add("popup_opened");
-});
-
-closeBurgerButton.addEventListener("click", () => {
+  document.addEventListener("keydown", handleEscClose);
+}
+function closePopup() {
   popupBurger.classList.remove("popup_opened");
+  document.addEventListener("keydown", handleEscClose);
+}
+
+function handleEscClose(evt) {
+  if (evt.key === "Escape") {
+    closePopup();
+  }
+}
+
+openBurgerButton.addEventListener("click", () => {
+  openPopup();
+});
+closeBurgerButton.addEventListener("click", () => {
+  closePopup();
 });
 
-function escKeyHandler() {}
-
-function clickOutside() {}
+popupBurger.addEventListener("click", (event) => {
+  if (event.target.classList.contains("popup")) {
+    closePopup();
+  }
+});

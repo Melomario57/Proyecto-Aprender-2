@@ -21,8 +21,8 @@
 }
 .popup__button-cross {
   position: absolute;
-  top: 5px;
-  right: -28px;
+  top: 6px;
+  left: 6px;
   background-color: transparent;
   border: 0;
   z-index: 6;
