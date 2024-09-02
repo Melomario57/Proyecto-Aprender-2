@@ -47,7 +47,7 @@
   display: block;
   background: #5c8ceaad;
   margin: 0;
-  padding: 10px;
+  padding: 18px;
   list-style: none;
   border-bottom: 1px solid #000;
   width: 100%;
@@ -58,7 +58,7 @@
   color: black;
   text-decoration: none;
   transition: 0.03s;
-  font-size: 14px;
+  font-size: 23px;
 }
 
 .burger__nav-link:hover {

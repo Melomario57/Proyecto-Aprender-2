@@ -126,6 +126,26 @@
   .khan__buy-link {
     font-size: 28px;
   }
+  @keyframes book {
+    0% {
+      left: 0px;
+    }
+    20% {
+      left: 20px;
+    }
+    40% {
+      left: -20px;
+    }
+    60% {
+      left: 20px;
+    }
+    80% {
+      left: -20px;
+    }
+    100% {
+      left: 20px;
+    }
+  }
 }
 @media screen and (max-width: 780px) {
   .khan__book-container {
@@ -142,6 +162,13 @@
     margin-top: -200px;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .khan__book-pic {
+    animation-name: none;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .khan {
     padding: 85px 0 0;
