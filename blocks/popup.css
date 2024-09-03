@@ -11,8 +11,8 @@
 .popup__container {
   transform: translate(-50%, -50%);
   position: fixed;
-  top: 12%;
-  left: 72%;
+  top: 9%;
+  left: 77%;
 }
 
 .popup_opened {
@@ -27,6 +27,7 @@
   border: 0;
   z-index: 6;
   cursor: pointer;
+  display: none;
 }
 .popup__button-cross-image {
   width: 28px;

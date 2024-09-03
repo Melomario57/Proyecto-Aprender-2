@@ -45,7 +45,8 @@
 
 .burgerbutton__list-item {
   display: block;
-  background: #5c8ceaad;
+  background: #5c8bea;
+  filter: brightness(110%);
   margin: 0;
   padding: 18px;
   list-style: none;
@@ -53,12 +54,13 @@
   width: 100%;
   border-radius: 9px;
   text-decoration: none;
+  opacity: 1;
 }
 .burger__nav-link {
   color: black;
   text-decoration: none;
   transition: 0.03s;
-  font-size: 23px;
+  font-size: 28px;
 }
 
 .burger__nav-link:hover {

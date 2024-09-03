@@ -1,9 +1,9 @@
 const openBurgerButton = document.querySelector(".burgerbutton__label");
 const popupBurger = document.querySelector(".popup");
-const closeBurgerButton = document.querySelector(".popup__button-cross");
+const burgerButtons = document.querySelectorAll(".burger__nav-link");
 
-function openPopup() {
-  popupBurger.classList.add("popup_opened");
+function togglePopup() {
+  popupBurger.classList.toggle("popup_opened");
   document.addEventListener("keydown", handleEscClose);
 }
 function closePopup() {
@@ -18,14 +18,17 @@ function handleEscClose(evt) {
 }
 
 openBurgerButton.addEventListener("click", () => {
-  openPopup();
-});
-closeBurgerButton.addEventListener("click", () => {
-  closePopup();
+  togglePopup();
 });
 
 popupBurger.addEventListener("click", (event) => {
   if (event.target.classList.contains("popup")) {
     closePopup();
   }
+});
+
+burgerButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    closePopup();
+  });
 });
