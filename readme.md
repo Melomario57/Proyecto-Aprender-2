@@ -26,7 +26,7 @@
 - **JavaScript**: Implementación de la funcionalidad del botón de hamburguesa.
 - **Visual Studio Code**: Editor de código utilizado para el desarrollo.
 
-## Link de Github pages para visualizar la página: https://github.com/Melomario57/Proyecto-Aprender-2/index.html
+## Link de Github pages para visualizar la página: https://melomario57.github.io/Proyecto-Aprender-2/index.html
 
 ## Créditos
 
